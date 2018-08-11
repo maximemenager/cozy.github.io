@@ -17,8 +17,7 @@ pip install --user mkdocs
 Fetch external documentation and add it to mkdocs.yml (do not commit this the changes in `References`) :
 
 ```
-./fetch.sh
-./add_external_docs.py
+./add_external_docs.py --fetch
 ```
 
 Run MkDocs:
@@ -38,7 +37,7 @@ to search for information only in one location.
 Each repository maintains its own [table of contents](https://github.com/cozy/cozy-doctypes/blob/master/toc.yml),
 which controls what is shown under the References menu.
 
-See [./fetch.sh](./fetch.sh), [./build.sh](./build.sh), and [./add_external_docs.py](./add_external_docs.py) scripts for more information.
+See [./build.sh](./build.sh), and [./add_external_docs.py](./add_external_docs.py) scripts for more information.
 
 ## When are the docs deployed ?
 
