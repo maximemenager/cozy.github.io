@@ -3,4 +3,10 @@ cozy-konnector-libs https://github.com/konnectors/libs.git packages/cozy-konnect
 cozy-doctypes https://github.com/cozy/cozy-doctypes.git .
 cozy-stack https://github.com/cozy/cozy-stack.git docs
 konitor https://github.com/konnectors/konitor.git docs
-cozy-app-publish https://github.com/cozy/cozy-app-publish.git .
+babel-preset-cozy-app https://github.com/cozy/cozy-libs.git packages/babel-preset-cozy-app
+commitlint-config https://github.com/cozy/cozy-libs.git packages/commitlint-config
+cozy-app-publish https://github.com/cozy/cozy-libs.git packages/cozy-app-publish
+cozy-device-helper https://github.com/cozy/cozy-libs.git packages/cozy-device-helper
+eslint-config-cozy-app https://github.com/cozy/cozy-libs.git packages/eslint-config-cozy-app
+flags https://github.com/cozy/cozy-libs.git packages/flags
+realtime https://github.com/cozy/cozy-libs.git packages/realtime
